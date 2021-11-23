@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.box-list{
+    position: relative;
+    height: 800px;
+    
+}
+.boxes{
+    position: absolute;
+    display: flex;
+    width: 770px;
+    height: auto;
+    left: 22%;
+    top: 70px;
+    
+    
+}
+.box{   
+    width: 173px;
+    height: auto;
+    border: 1px solid rgba(202, 202, 202, 1);
+    border-radius: 8px;
+    margin-left: 15px;
+   
+}
+
+.back-word{
+    display: none;
+    width: 100%;
+    background-color: rgba(62, 62, 62, 0.776);
+    color: white;
+    height: 130px;
+    padding: 14px;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 12px;
+    line-height: 1.3;
+}
+.back-word li{
+    list-style: none;
+}
+strong span{
+    background-color: rgb(94, 222, 104);
+    color: white;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 44px;
+    padding: 0px;
+}
+.back-word .back-button li span{
+
+       background-color: rgb(118, 190, 219);
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 9px;
+}
+.box :hover .back-word{
+    display: block;
+}
+
+.box:hover{
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; 
+}
+.photo a img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+.photo{
+    position: relative;
+}
+
+.box-main{
+    padding: 10px;
+    
+}
+.box a{
+    text-decoration: none;
+}
+.heading{
+    line-height: 1.3;
+}
+.heading h4 a{
+    color: rgb(70, 120, 178);
+    font-family: sans-serif;
+    font-size: 15px;   
+}
+.heading h4 a:hover{
+color: rgb(53, 92, 138);
+}
+.test a{
+    background-color: rgb(172, 59, 59);
+    border: 1px solid rgb(99, 34, 34);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 11px;
+    height: 25px;
+    margin: 0px 0px;
+    padding: 4px 4px;
+}
+
+.box .test a{
+    color: white;
+    
+}
+.eyes-date i , span{
+    color: rgb(75, 117, 67);
+    font-size: 13px;
+}
+.eyes-date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.take-test{
+    width: 150px;
+    height: 40px;
+}
+.take-test a{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(70, 120, 178);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(63, 102, 168);
+    font-size: 15px;
+    padding: 6px 33px;
+}
+
+
+.take-test a, .take-test i{
+    color: white;
+    margin-top: 16px;
+
+}
+.take-test a:hover{
+    background-color: rgb(45, 77, 131);
+}
+
+.view a:hover{
+    background-color:rgb(201, 117, 0) ;
+}
+
+.view{
+    width: 150px;
+    height: 40px;
+    line-height: 3.0;
+}
+.view a{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 176, 95);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(227,165,77);
+    margin: 3px 0px;
+    font-size: 15px;
+    padding: 6px 20px;
+   
+}
+.view a, .view i{
+    color: white;
+    padding-top: 8px;
+}
+.box-down{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.4;
+}
+.boxes-2{
+    display: flex;
+    position: absolute;
+    left: 22%;
+    top: 400px;
+}
+.test-1 a{
+    background-color: rgb(10, 219, 73);
+    border: 1px solid rgba(0, 179, 39, 0.808);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 11px;
+    height: 25px;
+    margin: 0px 0px;
+    padding: 4px 4px;
+
+}
+.box-main-single{
+    padding: 10px;
+}
+
+
+.box-main-single .heading-1{
+    margin-top: 0px;
+    line-height: 2.5;
+}
+.box-main-single .heading-1 a{
+    color: rgb(70, 120, 178);
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+
+
+   
+  
